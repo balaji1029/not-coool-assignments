@@ -1,0 +1,15 @@
+CLASS SimpleClass
+FIELDS
+SimpleClass::int x1121121109
+
+SimpleClass::int y
+OBJECT_SIZE 20
+METHODS
+SimpleClass::public int sum(int, int)
+END_CLASS
+
+CLASS Test
+FIELDS 
+OBJECT_SIZE 12
+METHODS
+END_CLASS

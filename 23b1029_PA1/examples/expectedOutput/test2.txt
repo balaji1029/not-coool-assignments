@@ -1,0 +1,24 @@
+CLASS Base
+FIELDS
+Base::int a
+OBJECT_SIZE 16
+METHODS
+Base::public void foo()
+Base::public void bar()
+END_CLASS
+
+CLASS Derived
+FIELDS
+Base::int a
+Derived::int b
+OBJECT_SIZE 20
+METHODS
+Base::public void foo()
+Derived::public void bar()
+END_CLASS
+
+CLASS Test
+FIELDS 
+OBJECT_SIZE 12
+METHODS 
+END_CLASS

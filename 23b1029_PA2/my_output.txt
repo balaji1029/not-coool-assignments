@@ -1,0 +1,8 @@
+java -cp .:soot-4.6.0-jar-with-dependencies.jar PA2 Test3
+Soot started on Sat Feb 14 20:34:25 UTC 2026
+<Node: void <init>()>
+<Test: void <init>()>
+<Test: Node bleh()>
+<Test: void main(java.lang.String[])>
+Soot finished on Sat Feb 14 20:34:26 UTC 2026
+Soot has run for 0 min. 0 sec.

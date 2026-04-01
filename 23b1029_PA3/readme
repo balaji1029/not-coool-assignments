@@ -1,0 +1,8 @@
+# 1. Compiling the starter project
+javac -cp ".:../soot-4.6.0-jar-with-dependencies.jar" PA3.java
+
+# 2. Compiling the testcases
+cd testcases/Test1 && javac *.java && cd ../../
+
+# 3. Running the testcases
+java -cp ".:../soot-4.6.0-jar-with-dependencies.jar" PA3 Test1
