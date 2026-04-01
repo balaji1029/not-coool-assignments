@@ -729,8 +729,8 @@ public class AnalysisTransformer extends BodyTransformer {
                             if (suspects.size() == 1) {
                                 HeapObject obj = suspects.iterator().next();
 
-                                if (obj.isMarked)
-                                    continue;
+                                // if (obj.isMarked)
+                                //     continue;
 
                                 List<Local> reduds = new ArrayList<>();
                                 for (Map.Entry<Local, Set<HeapObject>> e : pointsToGraph.stackVars.entrySet()) {
